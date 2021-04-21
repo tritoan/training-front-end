@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="abc.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- list number -->
+        <div class="row">
+          <label for="list-numbers">Nhập dãy số</label>
+          <input type="text" id="list-numbers">
+        </div>
+        <!-- min number -->
+        <div class="row">
+          <label for="min-number">Số nhỏ nhất</label>
+          <input type="text" id="min-number" disabled>
+        </div>
+        <!-- average positive numbers -->
+        <div class="row">
+          <label for="average-positive-numbers">Trung bình cộng các số dương</label>
+          <input type="text" id="average-positive-numbers" disabled>
+        </div>
+        <!-- first negative number -->
+        <div class="row">
+          <label for="first-negative-number">Số âm đầu tiên</label>
+          <input type="text" id="first-negative-number" disabled>
+        </div>
+        <!-- sort-ascending -->
+        <div class="row">
+          <label for="sort-ascending">Sắp xếp tăng dần</label>
+          <input type="text" id="sort-ascending" disabled>
+        </div>
+        <!-- max odd execute -->
+        <div class="row">
+          <button id="btn-result-2" onclick="handleNumbers();">Kết Quả</button>
+        </div>
+      </div>
+</body>
+</html>
